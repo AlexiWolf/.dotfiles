@@ -133,7 +133,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %used% / %total% (%percentage_used%%)
+label-mounted = DISK %used% / %total% (%percentage_used%%)
 label-mounted-underline= ${colors.red}
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
@@ -144,7 +144,7 @@ interval = 2
 format-prefix = ""
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${colors.orange}
-label = RAM %percentage_used%%
+label = RAM %gb_used% / %gb_total% (%percentage_used%%)
 
 [module/cpu]
 type = internal/cpu
