@@ -17,10 +17,8 @@
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
 background = #222
 background-alt = #444
-;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
@@ -28,11 +26,8 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/main]
-;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 27
-;offset-x = 1%
-;offset-y = 1%
 radius = 6.0
 fixed-center = false
 
@@ -61,18 +56,6 @@ modules-right = filesystem pulseaudio memory cpu wlan eth battery date powermenu
 
 tray-position = right
 tray-padding = 2
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -80,22 +63,6 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
-
-[module/xkeyboard]
-type = internal/xkeyboard
-blacklist-0 = num lock
-
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-underline = ${colors.secondary}
-
-label-layout = %layout%
-label-layout-underline = ${colors.secondary}
-
-label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
 
 [module/filesystem]
 type = internal/fs
