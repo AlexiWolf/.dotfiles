@@ -1,0 +1,32 @@
+add_newline = true
+
+format = """
+\\[$username@$hostname:$directory$git_branch$git_commit$git_state$git_status\\] \\($time\\)
+$status$shell$character
+"""
+
+[username]
+style_user = "green bold"
+style_root = "red bold"
+format = "[$user]($style)"
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+style = "green bold"
+format = "[$hostname]($style)"
+
+[directory]
+truncation_symbol = ".../"
+truncation_length = 6
+style = "cyan bold"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[time]
+disabled = false
+format = "[$time]($style)"
+
+
+
+
