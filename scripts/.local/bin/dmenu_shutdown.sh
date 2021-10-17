@@ -1,21 +1,13 @@
-function prompt_shutdown {
-    while true; do
-        case "$(printf "shutdown\nrestart" | dmenu -p "Action")" in
-            [shutdown]* ) prompt_confirmation && systemctl poweroff; break;;
-            [restart]*  ) prompt_confirmation && systemctl restart; break;;
-            *           ) exit;;
-        esac
-    done
-}
+SHUTDOWN_COMMAND="systemctl poweroff"
+RESTART_COMMAND="systemctl restart"
 
-function prompt_confirmation {
-    while true; do
-        case "$(printf "yes\nno" | dmenu -p "Are you sure?")" in
-            [yes]* ) return 0;;
-            [no]*  ) return 1;;
-            *      ) exit;;
-        esac
-    done
+
+function prompt_shutdown {
+    case "$(printf "cancel\nshutdown\nrestart" | dmenu -p "Action")" in
+        [shutdown]* ) $SHUTDOWN_COMMAND;;
+        [restart]*  ) $RESTART_COMMAND;;
+        *           ) exit;;
+    esac
 }
 
 prompt_shutdown
