@@ -37,6 +37,9 @@ bindsym $mod+m exec $HOME/.local/bin/dmenu_manpages.sh
 # Notes (Replace this with something a bit more workable)
 bindsym $mod+n exec $HOME/.local/bin/dmenu_notes.sh
 
+# Shutdown / Restart
+bindsym $mod+shift+x exec $HOME/.local/bin/dmenu_shutdown.sh
+
 # Change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
