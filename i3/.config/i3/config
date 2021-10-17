@@ -1,4 +1,10 @@
+## Variables
+
+# Main mod key is ALT.
 set $mod Mod1
+
+# Set the TERMINAL variable in set_terminal.sh.
+exec $HOME/.local/bin/set_terminal.sh
 
 ## UI
 
@@ -22,7 +28,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec $TERMINAL
 
 # kill focused window
 bindsym $mod+Shift+q kill
