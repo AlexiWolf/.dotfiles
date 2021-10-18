@@ -1,9 +1,9 @@
 SHUTDOWN_COMMAND="systemctl poweroff"
-RESTART_COMMAND="systemctl restart"
+RESTART_COMMAND="systemctl reboot"
 
 
 function prompt_shutdown {
-    case "$(printf "cancel\nshutdown\nrestart" | dmenu -p "Action")" in
+    case "$(printf "cancel\nshutdown\nrestart" | dmenu -p "Shutdown")" in
         [shutdown]* ) $SHUTDOWN_COMMAND;;
         [restart]*  ) $RESTART_COMMAND;;
         *           ) exit;;
