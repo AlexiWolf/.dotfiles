@@ -4,7 +4,7 @@
 set $mod Mod1
 
 # Set the TERMINAL variable in set_terminal.sh.
-exec $HOME/.local/bin/set_terminal.sh
+set $TERMINAL alacritty
 
 ## UI
 
