@@ -1,4 +1,5 @@
-source debian_shutdown_commands.sh
+SHUTDOWN_COMMAND="systemctl poweroff"
+RESTART_COMMAND="systemctl reboot"
 
 
 function prompt_shutdown {
