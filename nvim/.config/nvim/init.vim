@@ -10,5 +10,5 @@ set smartindent
 set nowrap
 set colorcolumn=80,90,120
 
-source plugins.vim
+source ~/.config/nvim/plugins.vim
 
