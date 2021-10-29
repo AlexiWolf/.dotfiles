@@ -7,6 +7,7 @@ alias ..="cd .."
 ## Path
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/scripts:$PATH"
+export PATH="$HOME/go/bin:$PATH"
 
 ## Terminal
 export TERMINAL=alacritty
