@@ -3,6 +3,8 @@
 # Main mod key is ALT.
 set $mod Mod1
 
+set $TERMINAL alacritty
+
 ## UI
 
 # Polybar
