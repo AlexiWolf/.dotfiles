@@ -1,0 +1,14 @@
+# Storing scripts here requires whitelisting them.
+
+# Ignore all files by default.
+*
+!.gitignore
+
+# Script White-list
+
+## Dmenu scripts
+!dmenu_*
+
+## Sarcasm script and alias links
+!sarcasm*
+stupid
