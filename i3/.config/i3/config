@@ -3,9 +3,6 @@
 # Main mod key is ALT.
 set $mod Mod1
 
-# Set the TERMINAL variable in set_terminal.sh.
-set $TERMINAL alacritty
-
 ## UI
 
 # Polybar
