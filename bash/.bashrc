@@ -9,8 +9,7 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/scripts:$PATH"
 
 ## Terminal
-export $TERMINAL=alacritty
-
+export TERMINAL=alacritty
 
 # Hilarity Ensues
 fortune | sarcasm | cowsay
