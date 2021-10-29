@@ -2,8 +2,13 @@
 
 alias ..="cd .."
 
+# Exports
+
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/scripts:$PATH"
+
+export $TERMINAL=alacritty
+
 
 # Hilarity Ensues
 fortune | sarcasm | cowsay
