@@ -4,9 +4,11 @@ alias ..="cd .."
 
 # Exports
 
+## Path
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/scripts:$PATH"
 
+## Terminal
 export $TERMINAL=alacritty
 
 
@@ -18,7 +20,8 @@ eval "$(starship init bash)"
 . "$HOME/.cargo/env"
 
 # SDKMan
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+
+## THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
