@@ -12,9 +12,6 @@ export PATH="$HOME/go/bin:$PATH"
 ## Terminal
 export TERMINAL=alacritty
 
-# Hilarity Ensues
-fortune | sarcasm | cowsay
-
 # Start the Starship terminal
 eval "$(starship init bash)"
 . "$HOME/.cargo/env"
