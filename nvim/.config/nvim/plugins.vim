@@ -1,5 +1,9 @@
 call plug#begin()
 
+" LSP
+
+Plug 'neovim/nvim-lspconfig'
+
 " Telescope
 
 Plug 'nvim-lua/plenary.nvim'
