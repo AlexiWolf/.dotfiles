@@ -10,6 +10,9 @@ set $TERMINAL alacritty
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# Udiskie
+exec_always --no-startup-id udiskie
+
 # Minimal window borders
 default_border pixel 1
 default_floating_border pixel 1
