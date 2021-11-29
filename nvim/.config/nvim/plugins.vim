@@ -3,7 +3,7 @@ call plug#begin()
 " LSP
 
 Plug 'neovim/nvim-lspconfig'
-Plug 'williamboman/nvim-lsp-installer'
+Plug 'mattn/vim-lsp-settings'
 
 " Telescope
 
