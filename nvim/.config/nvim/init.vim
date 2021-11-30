@@ -1,5 +1,6 @@
 syntax on
 
+set nocompatible 
 set noerrorbells
 set number
 set relativenumber
