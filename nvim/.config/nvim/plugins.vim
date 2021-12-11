@@ -1,5 +1,5 @@
 call plug#begin()
 
-"LSP
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
