@@ -7,4 +7,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Fugitive
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
