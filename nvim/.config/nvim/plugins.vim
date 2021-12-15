@@ -10,4 +10,7 @@ Plug 'junegunn/fzf.vim'
 " Fugitive
 Plug 'tpope/vim-fugitive'
 
+" Testing
+Plug 'vim-test/vim-test'
+
 call plug#end()
