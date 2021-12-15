@@ -13,4 +13,7 @@ Plug 'tpope/vim-fugitive'
 " Testing
 Plug 'vim-test/vim-test'
 
+" Terminal
+Plug 'kassio/neoterm'
+
 call plug#end()
