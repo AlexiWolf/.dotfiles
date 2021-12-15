@@ -1,3 +1,5 @@
+let test#strategy = "neoterm"
+
 nmap <silent> t<C-n> :TestNearest<CR>
 nmap <silent> t<C-f> :TestFile<CR>
 nmap <silent> t<C-s> :TestSuite<CR>
