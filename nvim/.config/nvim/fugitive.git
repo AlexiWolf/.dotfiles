@@ -1,1 +1,8 @@
-nmap <leader>cc :G add --all | G commit  
+" Stage all changes
+nmap gaa :G add --all 
+
+" Commit
+nmap gc  :G commit
+
+" Push changes
+nmap gp :G push
