@@ -1,0 +1,1 @@
+nmap <leader>cc :G add --all | G commit  
