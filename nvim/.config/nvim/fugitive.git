@@ -1,3 +1,5 @@
+" Status 
+nmap gs :G status<CR>
 " Stage all changes
 nmap gaa :G add --all<CR> 
 
