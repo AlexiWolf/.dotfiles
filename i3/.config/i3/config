@@ -7,6 +7,9 @@ set $TERMINAL alacritty
 
 ## UI
 
+# Run Picom
+exec_always --no-startup-id picom
+
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
