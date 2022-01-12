@@ -10,6 +10,10 @@ set $TERMINAL alacritty
 # Run Picom
 exec_always --no-startup-id picom
 
+# Run Nitrogen
+
+exec_always --no-startup-id nitrogen --restore
+
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
