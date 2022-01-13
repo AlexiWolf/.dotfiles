@@ -39,6 +39,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Terminal
 bindsym $mod+Return exec $TERMINAL
 
+# Screenshots
+
+bindsym Print exec flameshot gui 
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
