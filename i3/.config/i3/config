@@ -42,7 +42,7 @@ bindsym $mod+Return exec $TERMINAL
 # Screenshots
 
 bindsym Print exec flameshot gui 
-bindsym $mod+Shift+s flameshot gui
+bindsym $mod+Shift+s exec flameshot gui
 
 # kill focused window
 bindsym $mod+Shift+q kill
