@@ -17,6 +17,9 @@ set colorcolumn=80
 " 90 character line limit for Rust code
 autocmd BufNewFile,BufRead *.rs setlocal colorcolumn=90
 
+" 120 character line limit for Markdown text
+autocmd BufNewFile,BufRead *.md setlocal colorcolumn=120
+
 source ~/.config/nvim/plugins.vim
 source ~/.config/nvim/keybindings/keybindings.vim
 source ~/.config/nvim/coc.vim
