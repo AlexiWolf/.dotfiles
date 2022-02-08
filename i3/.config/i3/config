@@ -10,9 +10,9 @@ set $TERMINAL alacritty
 # Run Picom
 exec_always --no-startup-id picom
 
-# Run Nitrogen
+# Randomize Wallpapers
 
-exec_always --no-startup-id nitrogen --restore
+exec_always --no-startup-id randomize_wallpaper -f $HOME/Sync/desktop_backgrounds -d 60
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
