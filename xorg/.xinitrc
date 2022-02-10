@@ -5,4 +5,4 @@ export PATH="$HOME/.local/scripts:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/.intelij/bin:$PATH"
 
-exec dbus-run-session i3 -a
+exec dbus-run-session qtile start 
