@@ -34,6 +34,9 @@ from libqtile.utils import guess_terminal
 mod = "mod4"
 terminal = guess_terminal()
 
+# Run Polybar
+lazy.spawn("~/.config/polybar/launch.sh")
+
 keys = [
     # A list of available commands that can be bound to keys can be found
     # at https://docs.qtile.org/en/latest/manual/config/lazy.html
@@ -69,11 +72,12 @@ keys = [
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
-    Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
-    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([mod, "shift"], "q", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod, "shift"], "r", lazy.reload_config(), desc="Reload the config"),
+    Key([mod, "shift"], "e", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
-    Key([mod], "d", lazy.spawn("dmenu"), desc="Start Dmenu launcher") 
+    Key([mod], "d", lazy.spawn("i3-dmenu-desktop"), desc="Start Dmenu launcher for desktop files") 
+    Key([mod, "shift"], "d", lazy.spawn("dmenu_run"), desc="Start Dmenu launcher") 
 ]
 
 groups = [Group(i) for i in "123456789"]
