@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Discord (Erwic)
-Exec=/usr/bin/vieb --erwic=~/.config/erwic/discord.json --datafolder=~/.config/erwic/communication/data/
+Exec=/usr/bin/vieb --erwic=~/.config/erwic/discord/discord.json --datafolder=~/.config/erwic/discord/data/
 Terminal=false
 Type=Application
 
