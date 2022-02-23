@@ -1,0 +1,9 @@
+{
+        "name": "discord",
+        "apps": [
+                {
+                        "container": "discord",
+                        "url": "https://discord.com/app"
+                }
+        ]
+}

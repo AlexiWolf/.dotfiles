@@ -1,0 +1,9 @@
+{
+        "name": "element",
+        "apps": [
+                {
+                        "container": "element",
+                        "url": "https://app.element.io/"
+                }
+        ]
+}
