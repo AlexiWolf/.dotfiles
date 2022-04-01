@@ -4,8 +4,7 @@ set nocompatible
 set noerrorbells
 set number
 set relativenumber
-set tabstop=4 softtabstop=4
-set expandtab
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set smartindent
 set scrolloff=999
 
