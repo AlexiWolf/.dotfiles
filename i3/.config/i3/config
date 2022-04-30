@@ -53,6 +53,9 @@ bindsym $mod+Shift+s exec flameshot gui
 # kill focused window
 bindsym $mod+Shift+q kill
 
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
 # Program launcher
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+Shift+d exec --no-startup-id dmenu_run
