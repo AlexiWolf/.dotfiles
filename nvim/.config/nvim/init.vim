@@ -25,4 +25,5 @@ source ~/.config/nvim/coc.vim
 source ~/.config/nvim/fzf.vim
 source ~/.config/nvim/vim_test.vim
 source ~/.config/nvim/fugitive.git
+source ~/.config/nvim/easymotion.vim
 
