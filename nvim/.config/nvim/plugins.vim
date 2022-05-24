@@ -16,4 +16,7 @@ Plug 'vim-test/vim-test'
 " Terminal
 Plug 'kassio/neoterm'
 
+" Easy Motion
+Plug 'easymotion/vim-easymotion'
+
 call plug#end()
