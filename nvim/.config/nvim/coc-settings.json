@@ -4,6 +4,7 @@
           "Calloop",
           "Gilrs",
           "Winit",
+          "gamepad",
           "subcontexts"
         ]
 }
