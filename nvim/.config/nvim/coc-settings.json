@@ -1,7 +1,9 @@
 {
         "rust-analyzer.cargo.allFeatures": true,
+        "rust-analyzer.checkOnSave.allTargets": true,
         "cSpell.userWords": [
           "Calloop",
+          "Clippy",
           "Gilrs",
           "Winit",
           "gamepad",
@@ -30,5 +32,12 @@
                     }
                 }
             }
-        }
+        },
+
+        "java.configuration.runtimes": [
+            {
+                "name": "JavaSE-17",
+                "path": "/usr/lib/jvm/java-17-openjdk"
+            }
+        ]
 }
