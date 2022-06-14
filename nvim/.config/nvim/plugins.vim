@@ -1,5 +1,8 @@
 call plug#begin()
 
+" Editorconfig support
+Plug 'editorconfig/editorconfig-vim'
+
 " Code Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
