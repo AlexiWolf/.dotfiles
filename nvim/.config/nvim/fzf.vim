@@ -1,2 +1,3 @@
 " Map to Ctrl + p 
-nmap <C-P> :FZF<CR>
+nmap ft :Tags<CR>
+nmap ff :FZF<CR>
