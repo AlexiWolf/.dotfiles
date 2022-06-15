@@ -25,4 +25,7 @@ Plug 'kassio/neoterm'
 " Easy Motion
 Plug 'easymotion/vim-easymotion'
 
+" Status Bar
+Plug 'itchyny/lightline.vim'
+
 call plug#end()
