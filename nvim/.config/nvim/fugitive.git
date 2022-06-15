@@ -10,4 +10,4 @@ nmap gc  :G commit<CR>
 nmap gp :G push<CR>
 
 " Diff
-nmap gD :G diff<CR>
+nmap gd :G diff<CR>
