@@ -1,3 +1,3 @@
 " Map to Ctrl + p 
-nmap ff :Tags<CR>
-nmap FF :FZF<CR>
+nmap <silent>ff :Tags<CR>
+nmap <silent>FF :FZF<CR>
