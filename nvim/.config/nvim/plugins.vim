@@ -1,5 +1,11 @@
 call plug#begin()
 
+" Editorconfig support
+Plug 'editorconfig/editorconfig-vim'
+
+" Automatic Tag Generation  
+Plug 'ludovicchabant/vim-gutentags'
+
 " Code Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
