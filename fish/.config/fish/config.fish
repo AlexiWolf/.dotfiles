@@ -8,4 +8,7 @@ export ANDROID_SDK_ROOT=/opt/android-sdk/
 export FZF_DEFAULT_COMMAND='fd --type f'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
+export GEM_HOME=~/.local/gems/
+fish_add_path -aP ~/.local/gems/bin
+
 starship init fish | source
